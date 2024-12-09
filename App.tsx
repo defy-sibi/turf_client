@@ -44,7 +44,7 @@ const App: React.FC = () => {
 
     setLoading(true);
     try {
-      const response = await fetch('http://localhost:3000/api/passes', {
+      const response = await fetch('http://18.223.188.210:3000/api/passes', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
